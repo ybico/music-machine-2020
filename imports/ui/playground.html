@@ -1,0 +1,137 @@
+<template name="playground">
+
+  <header>
+    <p class="text-center"><span class="machine-navbar">Speed Music Mixer Machine 2020</span></p>
+  </header>
+
+  <!-- Remember - if you want to control functions globaly, don't declare them as var. Just name them. -->
+
+  <div class="container machine-container">
+
+    {{#if startdac }}
+        <i class="btn btn-lg btn-danger js-masterButton fa fa-stop-circle fa-3x"></i>
+    {{else}}
+        <i class="btn btn-lg btn-success js-masterButton fa fa-play-circle fa-3x"></i>
+    {{/if}}
+
+    <br /><br />
+
+    <div class="slider-container" id="myid">
+      <div class="slider" id="slider"></div>
+    </div>
+    
+    <br>
+    <span class="current-speed">Current Speed = </span><span class="slider-value">{{sliderValue}}</span>
+
+    <div class="btns-container" id="myid">
+      <div class="row">
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">Dance</button></div>
+        <div class="col-xs-2">
+            {{#if dance}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlDance" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlDance" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">Dreams</button></div>
+        <div class="col-xs-2">
+            {{#if dreams}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlDreams" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlDreams" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">Dubstep</button></div>
+        <div class="col-xs-2">
+            {{#if dubstep}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlDubstep" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlDubstep" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">Emotions</button></div>
+        <div class="col-xs-2">
+            {{#if endlessmotion}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlEndlessmotion" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlEndlessmotion" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">E.R.F</button></div>
+        <div class="col-xs-2">
+            {{#if erf}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlErf" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlErf" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">House</button></div>
+        <div class="col-xs-2">
+            {{#if house}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlHouse" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlHouse" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">Moose</button></div>
+        <div class="col-xs-2">
+            {{#if moose}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlMoose" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlMoose" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">Pop Dance</button></div>
+        <div class="col-xs-2">
+            {{#if popdance}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlPopdance" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlPopdance" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">Sci Fi</button></div>
+        <div class="col-xs-2">
+            {{#if scifi}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlScifi" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlScifi" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+
+        <div class="col-xs-4"><button class="btn btn-md css-instrument-name">Summer</button></div>
+        <div class="col-xs-2">
+            {{#if summer}}
+                <i class="fa fa-stop-circle fa-2x btn-danger js-controlSummer" aria-hidden="true"></i>
+            {{else}}
+                <i class="fa fa-play-circle fa-2x btn-success js-controlSummer" aria-hidden="true"></i>
+            {{/if}}
+        </div>
+      </div>
+    </div>
+    <h2> {{startdac}} {{dance}} {{dreams}} {{dubstep}} {{endlessmotion}} {{erf}} {{house}} {{moose}} {{popdance}} {{scifi}} {{summer}}</h2>
+  </div>
+</template>
