@@ -4,18 +4,34 @@
 
 This project is for the course Responsive website tutorials and examples, (second week)
 
-## Adding a new song file
+## steps:
+1.  `main.html`
 
-1. All song files are in the `public/` folder
-2. Open `playground.js`
-3. Create your new `new Maxim()` objects
-4. Load a song file with the newly created `Maxim()` object
-5. Add the `stopOrPlay<song-name>` function
-6. Add the song player to the `playAll`and `stopAll` functions (main button)
-7. Add the song player to the `setSpeed` function (slider)
-8. Add to the template helpers for each song
-9. Add to the template click events for each button to play and stop songs
-10. Add rows for each button and title of the song in `playground.html`
-12. Customize the app to your liking by editing `main.css`
+    changed the <title> 
+
+2. `playground.js`
+
+    created a 10 new Maxim () objects.
+    loaded the song files with the newly created Maxim () object.
+    added the stopOrPlay <song-name> function for each play/stop button.
+    added the the playAll (), stopAll (), functions for the main button.
+    added the setSpeed ​​() function for the slider.
+    added template helpers for each song.
+    added template event functions for each "play / stop" button.
+
+3. `main.js`
+
+    changed the names and values ​​for insert. All values ​​were set to 0 except the one for the slide which was 50. The reason for it 
+    is so that the sounds do not turn on all at once after a reset of the collection.
+
+4. `playground.html`
+
+    added a row including a play / stop button for each song file.
+
+5. `main.css`
+
+    I made all the necessary changes to make the application to my liking.
+    
+ Sarah Mattar, thank you for your GitHub help
 
 =======
