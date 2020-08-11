@@ -1,8 +1,8 @@
 # Speed-Music-Machine-2020
-# A forked version of an Meteor application for the Responsive Website Tutorial and Examples class (2nd. week) @ University of London. Runs on Meteor 1.10
+## A forked version of an Meteor application for the Responsive Website Tutorial and Examples class (2nd. week) @ University of London. Runs on Meteor 1.10
 
-very important
-=
+## Very important:
+
         before running this app, run the following command:
         meteor npm install --save @babel/runtime
         
@@ -28,5 +28,8 @@ steps:
 
 5. `main.css`
     - I made all the necessary changes to make the application to my liking.
-    
- Sarah Mattar, thank you for your GitHub help
+
+## Gallery
+Below is a screenshot of my work on a full shrinked browser (mobile) view.
+![Music machine running](/smm2020.png)
+PS, Sarah Mattar, thank you for your GitHub help
