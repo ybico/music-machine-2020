@@ -2,6 +2,10 @@
 # A forked version of an Meteor application for the Responsive Website Tutorial and Examples class (2nd. week) @ University of London
 # Runs on Meteor 1.10
 
+VERY IMPORTANT 
+    before running this app, run the following command:
+    meteor npm install --save @babel/runtime
+
 This project is for the course Responsive website tutorials and examples, (second week)
 
 ## steps:
@@ -35,3 +39,4 @@ This project is for the course Responsive website tutorials and examples, (secon
  Sarah Mattar, thank you for your GitHub help
 
 =======
+
