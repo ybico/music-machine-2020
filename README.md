@@ -9,7 +9,7 @@ very important
 steps:
 =
 1.  `main.html`
-    - edit the <title> 
+    - edited the <title> 
 
 2. `playground.js`
     - created a 10 new Maxim () objects.
