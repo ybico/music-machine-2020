@@ -32,4 +32,5 @@ steps:
 ## Gallery
 Below is a screenshot of my work on a full shrinked browser (mobile) view.
 ![Music machine running](/smm2020.png)
+
 PS, Sarah Mattar, thank you for your GitHub help
