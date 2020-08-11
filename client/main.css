@@ -13,6 +13,11 @@ header {
   border:solid 2px #607d8b;
 }
 
+.author {
+  font-size: .5rem;
+  color: #607d8b;
+}
+
 .machine-navbar {
   font-size: 2rem;
   color: #607d8b;
