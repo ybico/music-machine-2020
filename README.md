@@ -1,5 +1,5 @@
 # Speed-Music-Machine-2020
-## A forked version of an Meteor application for the Responsive Website Tutorial and Examples class (2nd. week) @ University of London. Runs on Meteor 1.10
+## A forked version of a Meteor application for the Responsive Website Tutorial and Examples class (2nd. week) @ University of London. Runs on Meteor 1.10
 
 ## Very important:
 
