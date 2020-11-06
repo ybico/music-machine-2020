@@ -33,9 +33,13 @@ steps:
 Below is a screenshot of my work on a full shrinked browser (mobile) view.
 ![Music machine running](/smm2020.png)
 
+<<<<<<< HEAD
 ## Web app address
 For more fun, enjoy my music machine 2020 app at [http://music-machine-2020.herokuapp.com/][website]
 
 [website]: http://music-machine-2020.herokuapp.com/
 
 PS, Sarah Mattar, thank you for your GitHub help
+=======
+PS, Sarah Mattar, thank you for your GitHub help
+>>>>>>> origin/master
