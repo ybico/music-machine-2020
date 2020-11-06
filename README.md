@@ -21,7 +21,7 @@ steps:
     - added template event functions for each play/stop button.
 
 3. `main.js`
-    - Set the song's names and values ​​to insert them into the collection. All values ​​were set to 0 except the one for the slide which is 50. The reason for setting at 0 is so that the sounds do not turn on all at once after a reset of the collection.
+    - Set the song's names and values ​​to insert them into the collection. All values ​​were set to 0 except the one for the slide which is 50. The reason for setting them at 0 is so that the sounds do not turn on all at once after a reset of the collection.
 
 4. `playground.html`
     - added a row including a play/stop button for each song file.
@@ -32,5 +32,10 @@ steps:
 ## Gallery
 Below is a screenshot of my work on a full shrinked browser (mobile) view.
 ![Music machine running](/smm2020.png)
+
+## Web app address
+For more fun, enjoy my music machine 2020 app at [http://music-machine-2020.herokuapp.com/][website]
+
+[website]: http://music-machine-2020.herokuapp.com/
 
 PS, Sarah Mattar, thank you for your GitHub help
